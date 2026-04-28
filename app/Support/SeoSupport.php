@@ -7,6 +7,7 @@ class SeoSupport
     public static function injectPageEnhancements(string $view, string $html): string
     {
         $html = self::replaceBrokenImageUrls($html);
+        $html = self::injectFooterLinkStyles($html);
 
         return match ($view) {
             'home' => self::injectHomeEnhancements($html),
@@ -161,5 +162,27 @@ HTML;
         ];
 
         return str_replace(array_keys($replacements), array_values($replacements), $html);
+    }
+
+    private static function injectFooterLinkStyles(string $html): string
+    {
+        if (str_contains($html, 'codex-footer-link-fix')) {
+            return $html;
+        }
+
+        $style = <<<'HTML'
+<style class="codex-footer-link-fix">
+.elementor-element-6a74058 .elementor-heading-title a,
+.elementor-element-8bdb12c .elementor-heading-title a,
+.elementor-element-6a74058 .elementor-heading-title a:hover,
+.elementor-element-8bdb12c .elementor-heading-title a:hover,
+.elementor-element-6a74058 .elementor-heading-title a:focus,
+.elementor-element-8bdb12c .elementor-heading-title a:focus {
+    color: #fff !important;
+}
+</style>
+HTML;
+
+        return str_replace('</head>', $style . "\n</head>", $html);
     }
 }
