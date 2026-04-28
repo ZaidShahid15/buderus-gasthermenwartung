@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://buderus-gasthermenwartung.at/sitemap_index.xml
+Sitemap: https://buderus-gasthermenwartung.at/page-sitemap.xml
+Sitemap: https://buderus-gasthermenwartung.at/elementor-hf-sitemap.xml

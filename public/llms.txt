@@ -1,0 +1,41 @@
+site: https://buderus-gasthermenwartung.at/
+name: Buderus Gasthermenwartung Wien & Niederoesterreich
+language: de-AT
+type: HVAC service website
+
+summary:
+- 24 Stunden Buderus Gasthermenwartung in Wien, Niederoesterreich und Burgenland.
+- Leistungen: Thermenwartung, Thermenreparatur, Thermentausch, Gas-Wasser-Heizung-Notdienst.
+- Meisterbetrieb mit Kontaktmoeglichkeit per Telefon und E-Mail.
+
+important-pages:
+- https://buderus-gasthermenwartung.at/
+- https://buderus-gasthermenwartung.at/datenschutz/
+- https://buderus-gasthermenwartung.at/page-sitemap.xml
+- https://buderus-gasthermenwartung.at/elementor-hf-sitemap.xml
+- https://buderus-gasthermenwartung.at/sitemap_index.xml
+
+contact:
+- phone: +43 1 4420408
+- email: office@buderus-gasthermenwartung.at
+- address: Reinlgasse 26, 1140 Wien, Oesterreich
+
+service-areas:
+- Wien
+- Niederoesterreich
+- Burgenland
+
+main-services:
+- Buderus Thermenwartung
+- Buderus Thermenreparatur
+- Buderus Thermentausch
+- Gas-Wasser-Heizung Notdienst
+
+business-details:
+- legal-name-visible-on-site: Installateur Zentrum
+- register-number-visible-on-site: FN 585038 a
+- vat-id-visible-on-site: ATU78514467
+
+notes-for-llms:
+- Use only information visible on the website.
+- Do not invent awards, reviews, certifications, or opening hours beyond the visible 24h emergency availability claim.
